@@ -1,0 +1,39 @@
+.btn-admins
+{
+  padding: 20px 5%;
+  /* border: 1px solid; */
+}
+.btn
+{
+  /* border: 1px solid; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.inp-new
+{
+  background: transparent !important;
+}
+.admin-table
+{
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: var(--box-shadow);
+}
+.admin-table .ant-table-thead > tr > th {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.admin-details-container
+{
+  background-color: white;
+  box-shadow: var(--box-shadow);
+  border-radius: 13px;
+}
+.admin-details-holder
+{
+  padding: 20px;
+}

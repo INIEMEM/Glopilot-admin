@@ -1,0 +1,38 @@
+.shopdetails-div
+{
+  width: 100%;
+  /* height: auto; */
+  padding: 20px;
+  box-shadow: var(--box-shadow);
+  background-color: white;
+  border-radius: 20px; 
+  position: relative;
+  margin-bottom: 20px;
+}
+.try-table
+{
+  overflow-x: auto;
+}
+.shopdetails-div h1
+{
+  color: rgb(27, 27, 27);
+}
+.shopdetails-item-holder 
+{
+  margin-bottom: 10px;
+  gap: 20px;
+}
+.shopdetails-img
+{
+  border-radius: 4px;
+  height: 370px !important;
+  object-fit: cover;
+  /* width: 350px !important; */
+}
+.show-more-btn
+{
+  position: absolute;
+  bottom: 10px;
+  box-shadow: none;
+  right:10px;
+}

@@ -1,0 +1,102 @@
+.search-bar
+{
+  /* width: 10%; */
+  margin: 20px 0px 0 10px;
+}
+.search-bar-search
+{
+  width: 40%;
+}
+.orange-btn
+{
+  background-color: rgb(247, 178, 49);
+  color: white;
+  border: none;
+}
+.driver-profile-image
+{
+  border-radius: 50%;
+ 
+}
+.driver-details-form-header
+{
+  margin-top: 10px;
+}
+.driver-details-textarea
+{
+  height: 100px !important;
+  width: 630px !important;
+}
+.driver-details-id
+{
+  margin-top: 15px;
+}
+.inp-new
+{
+  width: 270px;
+}
+.google-map-drivers-holder
+{
+  background-color: #fffffffc;
+  position: relative !important;
+}
+.google-map-drivers
+{
+  height: 450px;
+  width: 100%;
+  border: 1px solid #ddd;
+  /* border-radius: 8px; */
+  position: relative !important;
+}
+.driver-vehicle-header
+{
+  padding: 20px ;
+
+}
+.google-map-pan
+{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #107d53;
+  color: white;
+  top: 10px;
+  left: 30px;
+}
+@media screen and (min-width: 1450px) 
+{
+  .inp-new
+  {
+    width: 410px;
+  }
+  .driver-details-textarea
+  {
+    height: 100px !important;
+    width: 820px !important;
+  }
+}
+@media screen and (max-width: 1250px) 
+{
+  .inp-new
+  {
+    width: 210px;
+  }
+  .driver-details-textarea
+  {
+    height: 100px !important;
+    width: 430px !important;
+  }
+}
+@media screen and (max-width: 950px) 
+{
+  .inp-new
+  {
+    width: 170px;
+  }
+  .driver-details-textarea
+  {
+    height: 100px !important;
+    width: 350px !important;
+  }
+}

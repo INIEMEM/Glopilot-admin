@@ -1,0 +1,29 @@
+.hospitality-details-holder
+{
+  background-color: white;
+  box-shadow: var(--box-shadow);
+  padding: 20px;
+  border-radius: 20px;
+}
+.hyussss
+{
+  border-bottom: 5px solid var(--primary-color);
+  padding: 20px 0;
+}
+.form-notice-holder
+{
+  padding: 10px;
+  width: 60%;
+  height: 310px;
+  background-color: white;
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+}
+.snd-notice-btn
+{
+  width: 100%;
+  height: 50px;
+  background-color: var(--primary-color);
+  border: none;
+  color: white;
+}

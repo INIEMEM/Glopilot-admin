@@ -1,0 +1,114 @@
+.reset-form-holder
+{
+  flex: 1;
+  /* padding: 0 50px; */
+}
+.reset-form
+{
+  margin-top: 20px;
+  
+}
+.reset-p
+{
+  font-size: 13px;
+  color: #5a5a5a;
+}
+.gap-60
+{
+  gap: 60px;
+}
+.gap-30
+{
+  gap: 30px;
+}
+.reset-inp
+{
+  min-width: 220% !important;
+  /* margin-bottom: 50px; */
+}
+.reset-inps
+{
+  min-width: 100% !important;
+}
+.reset-inpss
+{
+  width: 150%;
+}
+.reset-btn
+{
+  width: 220%;
+  margin-top: 10px;
+  height: 50px;
+  background-color: var(--primary-color);
+}
+.reset-btns
+{
+  width: 100%;
+  margin-top: 10px;
+  height: 50px;
+  background-color: var(--primary-color);
+}
+.forgot-backgrounds
+{
+  background-image: url('./assets/reset2.png');
+  height: 100%;
+  width: 100%;
+  flex: 1;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.forgot-backgroundss
+{
+  background-image: url('./assets/forgot.png');
+  height: 100%;
+  width: 100%;
+  flex: 1;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.forgot-backgroundsss
+{
+  background-image: url('./assets/verity.png');
+  height: 100%;
+  width: 100%;
+  flex: 1;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.gg
+{
+  padding: 0 30px;
+  
+}
+@media screen and (min-width: 1450px) 
+{
+  .login-form-holder
+  {
+    max-width: 60% !important;
+  }  
+  .login-form-main 
+  {
+    padding: 0px 40px;
+    height: 70%;
+  }
+  .reset-inp
+  {
+    width: 250%;
+    margin-top: 20px;
+  }
+  .reset-btn
+  {
+    width: 250%;
+  }
+  .reset-h1
+  {
+    font-size: 35px;
+  }
+  .reset-p
+  {
+    font-size: 16px;
+  }
+}

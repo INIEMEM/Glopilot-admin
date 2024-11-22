@@ -1,0 +1,83 @@
+.vehicle-details-holder
+{
+  background-color: white;
+  box-shadow: var(--box-shadow);
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  padding: 15px;
+}
+.vehicle-location
+{
+  /* border: 1px solid; */
+  border-radius: 15px;
+  width: 100%;
+  height: 340px;
+  margin: 10px 0px 20px 0;
+  overflow: hidden;
+}
+.tables-big
+{
+  max-width: 100% !important;
+}
+.rent-imgs
+{
+ 
+  border-radius: 15px;
+}
+.inp-news
+{
+  width: calc(72vw/3);
+}
+.google-map-section
+{
+  gap: 20px;
+  margin-top: 10px;
+  
+}
+.inp-newss
+{
+  width: 230px;
+}
+.request-response-booking {
+  /* border-bottom: 2px solid #dae0ff; */
+  padding-bottom: 10px;
+}
+.report-data-container h3
+{
+  margin-top: 10px;
+}
+.inp-newsss
+{
+  width: 470px;
+}
+.google-map-section div
+{
+  flex: 1;
+  border-radius: 15px;
+  margin-top: 5px;
+  height: 230px;
+  padding-bottom: 30px;
+  
+}
+@media screen and (min-width: 1450px) 
+{
+  .rent-img
+  {
+    width: 600px !important;
+    height: 450px !important;
+  }
+  .inp-news
+{
+  width: calc(83vw/3);
+}
+  .rent-imgs
+{
+  width: 600px !important;
+  border-radius: 15px;
+}
+  .vehicle-location
+  {
+    height: 400px;
+  }
+}
